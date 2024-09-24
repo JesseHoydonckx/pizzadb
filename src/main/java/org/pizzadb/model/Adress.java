@@ -2,20 +2,20 @@ package org.pizzadb.model;
 
 public class Adress {
 
-    private long id;
+    private long adressId;
     private short postal;
     private String street;
     private int number;
 
-    public Adress(long id, short postal, String street, int number) {
-        this.id = id;
+    public Adress(long adressId, short postal, String street, int number) {
+        this.adressId = adressId;
         this.postal = postal;
         this.street = street;
         this.number = number;
     }
 
-    public long getId() {
-        return id;
+    public long getadressId() {
+        return adressId;
     }
 
     public int getNumber() {
@@ -30,8 +30,8 @@ public class Adress {
         return street;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setId(long adressId) {
+        this.adressId = adressId;
     }
 
     public void setNumber(int number) {
