@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 @NamedQuery(
 		name = "select_adress_by_street",
 		query = "SELECT a "+
-                "FROM Adress a "+
+                "FROM Adress b "+
                 "WHERE street = :street"
 )
 
